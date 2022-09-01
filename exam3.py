@@ -11,18 +11,18 @@
 
 # 2. Напишите функцию, которая проверяет: является ли слово палиндромом
 
-# def word(a):
-#     return a[::-1]
-#
-#
-# def palindrome(a):
-#     a_p = word(a)
-#
-#     if a == a_p:
-#         return True
-#     return False
-#
-#
-# a = 'шалаш'
-# print(palindrome(a))
+def word(a):
+    return a[::-1]
+
+
+def palindrome(a):
+    a_p = word(a)
+
+    if a == a_p:
+        return True
+    return False
+
+
+a = 'шалаш'
+print(palindrome(a))
 
